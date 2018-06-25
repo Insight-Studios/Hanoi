@@ -27,5 +27,5 @@ struct FAchievement {
 	float totalSeconds;
 
 	UPROPERTY()
-	time_t dateAtReached;
+	FDateTime dateAtReached;
 };

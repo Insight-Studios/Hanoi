@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerState.h"
+#include "Achievement.h"
 #include "PlayerData.generated.h"
 
 /**
@@ -14,7 +15,8 @@ class HANOI_API APlayerData : public APlayerState
 {
 	GENERATED_BODY()
 	
-	
-	
-	
+public:
+
+	UPROPERTY()
+		TArray<FAchievement> history;
 };
